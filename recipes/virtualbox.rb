@@ -4,9 +4,6 @@ yum_repository 'virtualbox' do
   baseurl 'http://download.virtualbox.org/'\
           'virtualbox/rpm/fedora/$releasever/$basearch'
   enabled true
-  gpgcheck true
-  repo_gpgcheck true
-  gpgkey 'https://www.virtualbox.org/download/oracle_vbox.asc'
 end
 
 package 'VirtualBox-5.0'
