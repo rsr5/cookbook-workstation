@@ -18,9 +18,9 @@ multipackage 'windowing' do
   ]
 end
 
-service 'gdm' do
-  action :enable
-end
+#service 'gdm' do
+#  action :enable
+#end
 
 #service 'lightdm' do
 #  action [:enable, :start]
