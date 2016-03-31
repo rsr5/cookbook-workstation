@@ -19,12 +19,12 @@ multipackage 'windowing' do
 end
 
 service 'gdm' do
-  action :disable
+  action :enable
 end
 
-service 'lightdm' do
-  action [:enable, :start]
-end
+#service 'lightdm' do
+#  action [:enable, :start]
+#end
 
 cookbook_file '/home/robin/.xmonad/aphex.jpg' do
   owner 'robin'
