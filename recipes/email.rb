@@ -11,4 +11,5 @@ end
 remote_file location do
   source 'https://edgehill.nylas.com/download?platform=linux-rpm'
   notifies :run, 'execute[install n1]', :immediately
+  action :nothing # package is very broken
 end
