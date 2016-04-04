@@ -5,6 +5,7 @@ include_recipe 'workstation::audio'
 include_recipe 'workstation::fonts'
 include_recipe 'workstation::setup_chef'
 include_recipe 'workstation::chrome'
+include_recipe 'workstation::email'
 include_recipe 'workstation::vpn'
 # include_recipe 'workstation::virtualbox' unless node['enable_vagrant']
 include_recipe 'workstation::vagrant'
